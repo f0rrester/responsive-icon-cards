@@ -64,13 +64,121 @@ li {
 }
 
 @media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+  .card-img {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+  }
+
+  .card {
+    position: relative;
+  }
+
+  .card-body {
+    padding-left: 4rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .card {
+    margin: .5rem;
+  }
+
+  .card-body {
+    padding-left: 5rem;
+    position: relative;
+    margin-top: -1rem;
+  }
+
+  .card-img {
+    position: absolute;
+    margin: .1rem;
+    margin-top: 1.3rem;
+  }
+
+  .bug {
+    margin-right: .2rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .card {
+    display: inline-block;
+    width: 30%;
+    margin: .5rem;
+  }
+
+  h2 {
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .card-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    position: static;
+  }
+
+  .card-body {
+    position: static;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
